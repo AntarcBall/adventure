@@ -22,6 +22,8 @@ btn.addEventListener('click',function () {
 function loop(){
     if (keys.Enter){
         write();
+    var objDiv = document.getElementById("display"); 
+    objDiv.scrollTop = objDiv.scrollHeight;
     }
     requestAnimationFrame(loop)
 }

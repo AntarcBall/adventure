@@ -4,7 +4,7 @@ keys = {};
 document.addEventListener('keydown', e => {keys[e.key] = true})  //키 체크중 
 document.addEventListener('keyup', e => {if(keys[e.key]) delete keys[e.key]})  
 input = document.getElementById('text')
-hishit = ['(대충이모티콘)','ㄷㄷ','ㄷㄷ','ㄷㄷ','우흥','아따','ㅇ','ㅎㅌㅊ']
+hishit = ['(대충이모티콘)','(대충이모티콘)','ㄷㄷ','ㄷㄷ','ㄷㄷ','ㄷㄷ','우흥','우흥','아따','ㅇ','ㅇ','ㅎㅌㅊ','(화장실감)','(삐져서 반응없음)']
 function writeNewRow(value) {
     box.innerHTML += '<br/>' + value
 }
